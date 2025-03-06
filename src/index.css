@@ -1,0 +1,23 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a base font for the entire app */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5; /* Light gray background for the page */
+  color: #333333; /* Default text color */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Center the app content */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
